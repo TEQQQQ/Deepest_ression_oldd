@@ -25,7 +25,7 @@
 	hp = 200;
 	
 	mana = 1200
-	attack = 200;
+	attack = 400;
 	luck = 0;
 	armor = 5;
 	str = 0;
