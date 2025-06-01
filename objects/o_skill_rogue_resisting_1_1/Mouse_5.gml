@@ -1,0 +1,58 @@
+/// @description Insert description here
+// You can write your code in this editor
+
+
+if o_rogue.active_resisting_1 == 1 {
+
+
+
+//yerleşim
+			if o_skill_bars.skill_1 == true and yerlesim == false {
+				instance_create_layer(o_skill_bars.x+o_skill_bars.skill_1_x,o_skill_bars.y+o_skill_bars.skill_1_y,"buttons",o_skillbar_rogue_resisting_1_1);
+				o_skill_bars.skill_1 = false;
+				o_skill_1.resisting_deger = 1.1;
+				yerlesim = true;
+			}
+			if o_skill_bars.skill_2 == true and yerlesim == false {
+				instance_create_layer(o_skill_bars.x+o_skill_bars.skill_2_x,o_skill_bars.y+o_skill_bars.skill_1_y,"buttons",o_skillbar_rogue_resisting_1_1);
+				o_skill_bars.skill_2 = false;
+				o_skill_2.resisting_deger = 1.1;
+				yerlesim = true;
+			}
+			if o_skill_bars.skill_3 == true and yerlesim == false {
+				instance_create_layer(o_skill_bars.x+o_skill_bars.skill_3_x,o_skill_bars.y+o_skill_bars.skill_1_y,"buttons",o_skillbar_rogue_resisting_1_1);
+				o_skill_bars.skill_3 = false;
+				o_skill_3.resisting_deger = 1.1;
+				yerlesim = true;
+			}
+			if o_skill_bars.skill_4 == true and yerlesim == false {
+				instance_create_layer(o_skill_bars.x+o_skill_bars.skill_4_x,o_skill_bars.y+o_skill_bars.skill_1_y,"buttons",o_skillbar_rogue_resisting_1_1);
+				o_skill_bars.skill_4 = false;
+				o_skill_4.resisting_deger = 1.1;
+				yerlesim = true;
+			}
+			if o_skill_bars.skill_5 == true and yerlesim == false {
+				instance_create_layer(o_skill_bars.x+o_skill_bars.skill_5_x,o_skill_bars.y+o_skill_bars.skill_1_y,"buttons",o_skillbar_rogue_resisting_1_1);
+				o_skill_bars.skill_5 = false;
+				o_skill_5.resisting_deger = 1.1;
+				yerlesim = true;
+			}
+			if o_skill_bars.skill_6 == true and yerlesim == false {
+				instance_create_layer(o_skill_bars.x+o_skill_bars.skill_6_x,o_skill_bars.y+o_skill_bars.skill_1_y,"buttons",o_skillbar_rogue_resisting_1_1);
+				o_skill_bars.skill_6 = false;
+				o_skill_6.resisting_deger = 1.1;
+				yerlesim = true;
+			}
+			if o_skill_bars.skill_7 == true and yerlesim == false {
+				instance_create_layer(o_skill_bars.x+o_skill_bars.skill_7_x,o_skill_bars.y+o_skill_bars.skill_1_y,"buttons",o_skillbar_rogue_resisting_1_1);
+				o_skill_bars.skill_7 = false;
+				o_skill_7.resisting_deger = 1.1;
+				yerlesim = true;
+			}
+			if o_skill_bars.skill_8 == true and yerlesim == false {
+				instance_create_layer(o_skill_bars.x+o_skill_bars.skill_8_x,o_skill_bars.y+o_skill_bars.skill_1_y,"buttons",o_skillbar_rogue_resisting_1_1);
+				o_skill_bars.skill_8 = false;
+				o_skill_8.resisting_deger = 1.1;
+				yerlesim = true;
+			}
+}

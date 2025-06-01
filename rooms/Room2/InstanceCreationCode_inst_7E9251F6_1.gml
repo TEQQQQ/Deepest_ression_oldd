@@ -1,0 +1,1 @@
+sprite_index = s_skill_rogue_2

@@ -1,0 +1,12 @@
+/// @description Insert description here
+// You can write your code in this editor
+
+
+
+
+
+if position_meeting(mouse_x,mouse_y,o_rogue_area){
+	image_speed = 30
+} else {
+	image_index = 0;	
+}
