@@ -9,7 +9,7 @@ if room == Room1 and !instance_exists(o_tier1_1_bandicot) {
 }
 
 
-
+draw_set_font(fnt_small);
 draw_text(x,y,1);
 
 

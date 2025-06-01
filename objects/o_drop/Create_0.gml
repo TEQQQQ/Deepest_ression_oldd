@@ -63,6 +63,10 @@ earring_emerald_drop_rate = 0;
 earring_emerald_drop_chance = random_range(0,100);
 earring_emerald_drop = false;
 
+leather_chest_drop_rate = 100;
+leather_chest_drop_chance = random_range(0,100);
+leather_chest_drop = false;
+
 
 place_1 = true;
 place_2 = true;

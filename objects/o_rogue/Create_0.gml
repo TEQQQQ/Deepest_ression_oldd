@@ -25,7 +25,7 @@
 	hp = 200;
 	
 	mana = 1200
-	attack = 20;
+	attack = 200;
 	luck = 0;
 	armor = 5;
 	str = 0;
@@ -35,15 +35,15 @@
 	int = 0;
 	critical_rate = 100;
 	dodge_rate = 0;
-	bleed_damage = 10;
+	bleed_damage = 0;
 	bleed_resistance = 10;
-	poison_damage = 1;
+	poison_damage = 0;
 	poison_resistance = 10;
-	flame_damage = 10;
+	flame_damage = 0;
 	flame_resistance = 10;
-	glacier_damage = 10;
+	glacier_damage = 0;
 	glacier_resistance = 10;
-	electro_damage = 10;
+	electro_damage = 0;
 	electro_resistance = 10;
 	max_mana = mana;
 	max_hp = hp;

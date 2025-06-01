@@ -413,6 +413,17 @@ if previous_equipment_chest != equipment_chest {
 }
 
 
+if equipment_chest == 2 {
+	if once_chest == true {
+		inv_hp_chest += 500;
+		inv_armor_chest += 50;
+		max_hp += inv_hp_chest;
+		armor += inv_armor_chest;
+		once_chest = false;
+	}
+}
+
+
 if equipment_chest == 1 {
 	if once_chest == true {
 		inv_hp_chest += 100;

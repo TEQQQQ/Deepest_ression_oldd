@@ -15,6 +15,12 @@ global.leather_id_3 = true;
 global.leather_id_4 = true;
 global.leather_id_5 = true;
 
+global.leather_id_1_chest = true;
+global.leather_id_2_chest = true;
+global.leather_id_3_chest = true;
+global.leather_id_4_chest = true;
+global.leather_id_5_chest = true;
+
 global.pacavra_id_1_chest = true;
 global.pacavra_id_2_chest = true;
 global.pacavra_id_3_chest = true;

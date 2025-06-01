@@ -10,6 +10,9 @@ if room == Room1 {
 	if o_rogue.equipment_chest == 1 {
 		sprite_index = s_pacavra_torso;
 	}
+	if o_rogue.equipment_chest == 2 {
+		sprite_index = s_leather_torso;
+	}
 	if o_rogue.equipment_chest == 0 {
 		sprite_index = s_body_torso_rogue;
 	}

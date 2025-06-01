@@ -3,6 +3,10 @@
 
 //zırhlar
 
+
+	if o_rogue.equipment_chest == 2 {
+		sprite_index = s_leather_torso;
+	}
 	if o_rogue.equipment_chest == 1 {
 		sprite_index = s_pacavra_torso;
 	}

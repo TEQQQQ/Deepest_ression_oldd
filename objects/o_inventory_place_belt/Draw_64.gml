@@ -9,5 +9,5 @@ if room == Room1 and !instance_exists(o_tier1_1_bandicot) {
 	draw_text(x-50,y,o_rogue.equipment_belt);
 }
 
-
+draw_set_font(fnt_small);
 draw_text(x-50,y,o_rogue.equipment_belt);
