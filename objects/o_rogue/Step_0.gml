@@ -470,6 +470,15 @@ if equipment_boots == 1 {
 	}
 }
 
+if equipment_boots == 2 {
+	if once_boots == true {
+		inv_hp_boots += 200;
+		inv_armor_boots += 20;
+		max_hp += inv_hp_boots;
+		armor += inv_armor_boots;
+		once_boots = false;
+	}
+}
 
 //gloves
 if previous_equipment_gloves != equipment_gloves {
