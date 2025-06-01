@@ -137,7 +137,7 @@ if room == Room_info or room == Room1 {
 				if mouse_check_button_pressed(mb_right){
 					if in_equipment == false {
 						if o_rogue.equipment_boots == 0 {
-							o_rogue.equipment_boots = 1;
+							o_rogue.equipment_boots = 2;
 							in_equipment = true;
 							// konumlar zırh takmak için
 						
