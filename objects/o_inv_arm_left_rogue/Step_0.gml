@@ -7,6 +7,9 @@
 	if o_rogue.equipment_gloves == 1 {
 		sprite_index = s_pacavra_arm_left;
 	}
+	if o_rogue.equipment_gloves == 2 {
+		sprite_index = s_leather_arm_left;
+	}
 	if o_rogue.equipment_gloves == 0 {
 		sprite_index = s_body_arm_left_rogue;
 		

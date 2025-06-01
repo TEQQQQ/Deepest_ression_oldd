@@ -489,6 +489,16 @@ if equipment_gloves == 1 {
 	}
 }
 
+if equipment_gloves == 2 {
+	if once_gloves == true {
+		inv_hp_gloves += 300;
+		inv_armor_gloves += 20;
+		max_hp += inv_hp_gloves;
+		armor += inv_armor_gloves;
+		once_gloves = false;
+	}
+}
+
 //ringler_1
 if previous_equipment_ring_1 != equipment_ring_1 {
 	if once_ring_1 == false {
