@@ -71,9 +71,13 @@ leather_gloves_drop_rate = 50;
 leather_gloves_drop_chance = random_range(0,100);
 leather_gloves_drop = false;
 
-leather_boots_drop_rate = 100;
+leather_boots_drop_rate = 50;
 leather_boots_drop_chance = random_range(0,100);
 leather_boots_drop = false;
+
+leather_pants_drop_rate = 100;
+leather_pants_drop_chance = random_range(0,100);
+leather_pants_drop = false;
 
 
 place_1 = true;
