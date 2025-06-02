@@ -561,6 +561,7 @@
     {"id":{"name":"s_bandicot_bite_effect","path":"sprites/s_bandicot_bite_effect/s_bandicot_bite_effect.yy",},},
     {"id":{"name":"s_battle_info","path":"sprites/s_battle_info/s_battle_info.yy",},},
     {"id":{"name":"s_belt_lichking","path":"sprites/s_belt_lichking/s_belt_lichking.yy",},},
+    {"id":{"name":"s_blbalba","path":"sprites/s_blbalba/s_blbalba.yy",},},
     {"id":{"name":"s_bleed_debuff","path":"sprites/s_bleed_debuff/s_bleed_debuff.yy",},},
     {"id":{"name":"s_bleed_hint","path":"sprites/s_bleed_hint/s_bleed_hint.yy",},},
     {"id":{"name":"s_body_arm_left_knight","path":"sprites/s_body_arm_left_knight/s_body_arm_left_knight.yy",},},
