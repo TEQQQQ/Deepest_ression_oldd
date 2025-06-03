@@ -71,6 +71,10 @@ global.ring_lousy_id_1 = true;
 global.ring_lousy_id_2 = true;
 global.ring_lousy_id_3 = true;
 
+global.ring_anil_id_1 = true;
+global.ring_anil_id_2 = true;
+global.ring_anil_id_3 = true;
+
 global.belt_lichking_id_1 = true;
 global.belt_lichking_id_2 = true;
 global.belt_lichking_id_3 = true;
