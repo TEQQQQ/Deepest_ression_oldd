@@ -33,11 +33,23 @@ global.pacavra_id_3_pants = true;
 global.pacavra_id_4_pants = true;
 global.pacavra_id_5_pants = true;
 
+global.leather_id_1_pants = true;
+global.leather_id_2_pants = true;
+global.leather_id_3_pants = true;
+global.leather_id_4_pants = true;
+global.leather_id_5_pants = true;
+
 global.pacavra_id_1_boots = true;
 global.pacavra_id_2_boots = true;
 global.pacavra_id_3_boots = true;
 global.pacavra_id_4_boots = true;
 global.pacavra_id_5_boots = true;
+
+global.leather_id_1_boots = true;
+global.leather_id_2_boots = true;
+global.leather_id_3_boots = true;
+global.leather_id_4_boots = true;
+global.leather_id_5_boots = true;
 
 global.pacavra_id_1_gloves = true;
 global.pacavra_id_2_gloves = true;

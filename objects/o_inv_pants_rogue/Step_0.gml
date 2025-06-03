@@ -6,6 +6,9 @@
 	if o_rogue.equipment_pants == 1 {
 		sprite_index = s_pacavra_pants;
 	}
+	if o_rogue.equipment_pants == 2 {
+		sprite_index = s_leather_pants;
+	}	
 	if o_rogue.equipment_pants == 0 {
 		sprite_index = s_body_pants_rogue;
 		
