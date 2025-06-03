@@ -79,6 +79,10 @@ leather_pants_drop_rate = 100;
 leather_pants_drop_chance = random_range(0,100);
 leather_pants_drop = false;
 
+ring_anil_drop_rate = 100;
+ring_anil_drop_chance = random_range(0,100);
+ring_anil_drop = false;
+
 
 place_1 = true;
 place_2 = true;

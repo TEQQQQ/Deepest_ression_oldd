@@ -7635,6 +7635,361 @@ if global.text_info == true {
 		} 
 	}
 
-} else {
+}
+if o_rogue.ring_anil <= 1 {
+		if place_1 == true {
+				if global.ring_anil_id_1 == false {
+					instance_create_layer(o_inventory_place_1.x,o_inventory_place_1.y,"buttons",o_rogue_ring_anil_inv);
+					o_rogue_ring_anil_inv.position = 1;
+					global.ring_anil_id_1 = noone;
+					place_1 = false;
+				} else if global.ring_anil_id_2 == false {
+					instance_create_layer(o_inventory_place_1.x,o_inventory_place_1.y,"buttons",o_rogue_ring_anil_inv2);
+					o_rogue_ring_anil_inv2.position = 1;
+					place_1 = false;
+					global.ring_anil_id_2 = noone;
+				} else if global.ring_anil_id_3 == false {
+					instance_create_layer(o_inventory_place_1.x,o_inventory_place_1.y,"buttons",o_rogue_ring_anil_inv3);
+					o_rogue_ring_anil_inv3.position = 1;
+					global.ring_anil_id_3 = noone;
+					place_1 = false;
+				}
+			
+			
+			
+		
+		} else if place_2 == true {
+		
+				if global.ring_anil_id_1 == false {
+					instance_create_layer(o_inventory_place_2.x,o_inventory_place_2.y,"buttons",o_rogue_ring_anil_inv);
+					o_rogue_ring_anil_inv.position = 2;
+					global.ring_anil_id_1 = noone;
+					place_2 = false;
+				} else if global.ring_anil_id_2 == false {
+					instance_create_layer(o_inventory_place_2.x,o_inventory_place_2.y,"buttons",o_rogue_ring_anil_inv2);
+					o_rogue_ring_anil_inv2.position = 2;
+					place_2 = false;
+					global.ring_anil_id_2 = noone;
+				} else if global.ring_anil_id_3 == false {
+					instance_create_layer(o_inventory_place_2.x,o_inventory_place_2.y,"buttons",o_rogue_ring_anil_inv3);
+					o_rogue_ring_anil_inv3.position = 2;
+					global.ring_anil_id_3 = noone;
+					place_2 = false;
+				}
+			
+			
+			
+		
+		} else if place_3 == true {
+		
+				if global.ring_anil_id_1 == false {
+					instance_create_layer(o_inventory_place_3.x,o_inventory_place_3.y,"buttons",o_rogue_ring_anil_inv);
+					o_rogue_ring_anil_inv.position = 3;
+					global.ring_anil_id_1 = noone;
+					place_3 = false;
+				} else if global.ring_anil_id_2 == false {
+					instance_create_layer(o_inventory_place_3.x,o_inventory_place_3.y,"buttons",o_rogue_ring_anil_inv2);
+					o_rogue_ring_anil_inv2.position = 3;
+					place_3 = false;
+					global.ring_anil_id_2 = noone;
+				} else if global.ring_anil_id_3 == false {
+					instance_create_layer(o_inventory_place_3.x,o_inventory_place_3.y,"buttons",o_rogue_ring_anil_inv3);
+					o_rogue_ring_anil_inv3.position = 3;
+					global.ring_anil_id_3 = noone;
+					place_3 = false;
+				}
+			
+			
+			
+		
+		} else if place_4 == true {
+		
+				if global.ring_anil_id_1 == false {
+					instance_create_layer(o_inventory_place_4.x,o_inventory_place_4.y,"buttons",o_rogue_ring_anil_inv);
+					o_rogue_ring_anil_inv.position = 4;
+					global.ring_anil_id_1 = noone;
+					place_4 = false;
+				} else if global.ring_anil_id_2 == false {
+					instance_create_layer(o_inventory_place_4.x,o_inventory_place_4.y,"buttons",o_rogue_ring_anil_inv2);
+					o_rogue_ring_anil_inv2.position = 4;
+					place_4 = false;
+					global.ring_anil_id_2 = noone;
+				} else if global.ring_anil_id_3 == false {
+					instance_create_layer(o_inventory_place_4.x,o_inventory_place_4.y,"buttons",o_rogue_ring_anil_inv3);
+					o_rogue_ring_anil_inv3.position = 4;
+					global.ring_anil_id_3 = noone;
+					place_4 = false;
+				}
+			
+			
+			
+		
+		} else if place_5 == true {
+		
+				if global.ring_anil_id_1 == false {
+					instance_create_layer(o_inventory_place_5.x,o_inventory_place_5.y,"buttons",o_rogue_ring_anil_inv);
+					o_rogue_ring_anil_inv.position = 5;
+					global.ring_anil_id_1 = noone;
+					place_5 = false;
+				} else if global.ring_anil_id_2 == false {
+					instance_create_layer(o_inventory_place_5.x,o_inventory_place_5.y,"buttons",o_rogue_ring_anil_inv2);
+					o_rogue_ring_anil_inv2.position = 5;
+					place_5 = false;
+					global.ring_anil_id_2 = noone;
+				} else if global.ring_anil_id_3 == false {
+					instance_create_layer(o_inventory_place_5.x,o_inventory_place_5.y,"buttons",o_rogue_ring_anil_inv3);
+					o_rogue_ring_anil_inv3.position = 5;
+					global.ring_anil_id_3 = noone;
+					place_5 = false;
+				}
+		
+			
+			
+		
+		} else if place_6 == true {
+		
+				if global.ring_anil_id_1 == false {
+					instance_create_layer(o_inventory_place_6.x,o_inventory_place_6.y,"buttons",o_rogue_ring_anil_inv);
+					o_rogue_ring_anil_inv.position = 6;
+					global.ring_anil_id_1 = noone;
+					place_6 = false;
+				} else if global.ring_anil_id_2 == false {
+					instance_create_layer(o_inventory_place_6.x,o_inventory_place_6.y,"buttons",o_rogue_ring_anil_inv2);
+					o_rogue_ring_anil_inv2.position = 6;
+					place_6 = false;
+					global.ring_anil_id_2 = noone;
+				} else if global.ring_anil_id_3 == false {
+					instance_create_layer(o_inventory_place_6.x,o_inventory_place_6.y,"buttons",o_rogue_ring_anil_inv3);
+					o_rogue_ring_anil_inv3.position = 6;
+					global.ring_anil_id_3 = noone;
+					place_6 = false;
+				}
+			
+			
+			
+		
+		} else if place_7 == true {
+		
+				if global.ring_anil_id_1 == false {
+					instance_create_layer(o_inventory_place_7.x,o_inventory_place_7.y,"buttons",o_rogue_ring_anil_inv);
+					o_rogue_ring_anil_inv.position = 7;
+					global.ring_anil_id_1 = noone;
+					place_7 = false;
+				} else if global.ring_anil_id_2 == false {
+					instance_create_layer(o_inventory_place_7.x,o_inventory_place_7.y,"buttons",o_rogue_ring_anil_inv2);
+					o_rogue_ring_anil_inv2.position = 7;
+					place_7 = false;
+					global.ring_anil_id_2 = noone;
+				} else if global.ring_anil_id_3 == false {
+					instance_create_layer(o_inventory_place_7.x,o_inventory_place_7.y,"buttons",o_rogue_ring_anil_inv3);
+					o_rogue_ring_anil_inv3.position = 7;
+					global.ring_anil_id_3 = noone;
+					place_7 = false;
+				}
+			
+			
+			
+		
+		} else if place_8 == true {
+		
+				if global.ring_anil_id_1 == false {
+					instance_create_layer(o_inventory_place_8.x,o_inventory_place_8.y,"buttons",o_rogue_ring_anil_inv);
+					o_rogue_ring_anil_inv.position = 8;
+					global.ring_anil_id_1 = noone;
+					place_8 = false;
+				} else if global.ring_anil_id_2 == false {
+					instance_create_layer(o_inventory_place_8.x,o_inventory_place_8.y,"buttons",o_rogue_ring_anil_inv2);
+					o_rogue_ring_anil_inv2.position = 8;
+					place_8 = false;
+					global.ring_anil_id_2 = noone;
+				} else if global.ring_anil_id_3 == false {
+					instance_create_layer(o_inventory_place_8.x,o_inventory_place_8.y,"buttons",o_rogue_ring_anil_inv3);
+					o_rogue_ring_anil_inv3.position = 8;
+					global.ring_anil_id_3 = noone;
+					place_8 = false;
+				}
+			
+			
+			
+		
+		} else if place_9 == true {
+		
+				if global.ring_anil_id_1 == false {
+					instance_create_layer(o_inventory_place_9.x,o_inventory_place_9.y,"buttons",o_rogue_ring_anil_inv);
+					o_rogue_ring_anil_inv.position = 9;
+					global.ring_anil_id_1 = noone;
+					place_9 = false;
+				} else if global.ring_anil_id_2 == false {
+					instance_create_layer(o_inventory_place_9.x,o_inventory_place_9.y,"buttons",o_rogue_ring_anil_inv2);
+					o_rogue_ring_anil_inv2.position = 9;
+					place_9 = false;
+					global.ring_anil_id_2 = noone;
+				} else if global.ring_anil_id_3 == false {
+					instance_create_layer(o_inventory_place_9.x,o_inventory_place_9.y,"buttons",o_rogue_ring_anil_inv3);
+					o_rogue_ring_anil_inv3.position = 9;
+					global.ring_anil_id_3 = noone;
+					place_9 = false;
+				}
+			
+			
+			
+		
+		} else if place_10 == true {
+		
+				if global.ring_anil_id_1 == false {
+					instance_create_layer(o_inventory_place_10.x,o_inventory_place_10.y,"buttons",o_rogue_ring_anil_inv);
+					o_rogue_ring_anil_inv.position = 10;
+					global.ring_anil_id_1 = noone;
+					place_10 = false;
+				} else if global.ring_anil_id_2 == false {
+					instance_create_layer(o_inventory_place_10.x,o_inventory_place_10.y,"buttons",o_rogue_ring_anil_inv2);
+					o_rogue_ring_anil_inv2.position = 10;
+					place_10 = false;
+					global.ring_anil_id_2 = noone;
+				} else if global.ring_anil_id_3 == false {
+					instance_create_layer(o_inventory_place_10.x,o_inventory_place_10.y,"buttons",o_rogue_ring_anil_inv3);
+					o_rogue_ring_anil_inv3.position = 10;
+					global.ring_anil_id_3 = noone;
+					place_10 = false;
+				}
+			
+			
+			
+		
+		} else if place_11 == true {
+		
+				if global.ring_anil_id_1 == false {
+					instance_create_layer(o_inventory_place_11.x,o_inventory_place_11.y,"buttons",o_rogue_ring_anil_inv);
+					o_rogue_ring_anil_inv.position = 11;
+					global.ring_anil_id_1 = noone;
+					place_11 = false;
+				} else if global.ring_anil_id_2 == false {
+					instance_create_layer(o_inventory_place_11.x,o_inventory_place_11.y,"buttons",o_rogue_ring_anil_inv2);
+					o_rogue_ring_anil_inv2.position = 11;
+					place_11 = false;
+					global.ring_anil_id_2 = noone;
+				} else if global.ring_anil_id_3 == false {
+					instance_create_layer(o_inventory_place_11.x,o_inventory_place_11.y,"buttons",o_rogue_ring_anil_inv3);
+					o_rogue_ring_anil_inv3.position = 11;
+					global.ring_anil_id_3 = noone;
+					place_11 = false;
+				}
+			
+			
+			
+		
+		} else if place_12 == true {
+		
+				if global.ring_anil_id_1 == false {
+					instance_create_layer(o_inventory_place_12.x,o_inventory_place_12.y,"buttons",o_rogue_ring_anil_inv);
+					o_rogue_ring_anil_inv.position = 12;
+					global.ring_anil_id_1 = noone;
+					place_12 = false;
+				} else if global.ring_anil_id_2 == false {
+					instance_create_layer(o_inventory_place_12.x,o_inventory_place_12.y,"buttons",o_rogue_ring_anil_inv2);
+					o_rogue_ring_anil_inv2.position = 12;
+					place_12 = false;
+					global.ring_anil_id_2 = noone;
+				} else if global.ring_anil_id_3 == false {
+					instance_create_layer(o_inventory_place_12.x,o_inventory_place_12.y,"buttons",o_rogue_ring_anil_inv3);
+					o_rogue_ring_anil_inv3.position = 12;
+					global.ring_anil_id_3 = noone;
+					place_12 = false;
+				}
+			
+			
+			
+		
+		} else if place_13 == true {
+		
+				if global.ring_anil_id_1 == false {
+					instance_create_layer(o_inventory_place_13.x,o_inventory_place_13.y,"buttons",o_rogue_ring_anil_inv);
+					o_rogue_ring_anil_inv.position = 13;
+					global.ring_anil_id_1 = noone;
+					place_13 = false;
+				} else if global.ring_anil_id_2 == false {
+					instance_create_layer(o_inventory_place_13.x,o_inventory_place_13.y,"buttons",o_rogue_ring_anil_inv2);
+					o_rogue_ring_anil_inv2.position = 13;
+					place_13 = false;
+					global.ring_anil_id_2 = noone;
+				} else if global.ring_anil_id_3 == false {
+					instance_create_layer(o_inventory_place_13.x,o_inventory_place_13.y,"buttons",o_rogue_ring_anil_inv3);
+					o_rogue_ring_anil_inv3.position = 13;
+					global.ring_anil_id_3 = noone;
+					place_13 = false;
+				}
+			
+			
+			
+		
+		} else if place_14 == true {
+		
+				if global.ring_anil_id_1 == false {
+					instance_create_layer(o_inventory_place_14.x,o_inventory_place_14.y,"buttons",o_rogue_ring_anil_inv);
+					o_rogue_ring_anil_inv.position = 14;
+					global.ring_anil_id_1 = noone;
+					place_14 = false;
+				} else if global.ring_anil_id_2 == false {
+					instance_create_layer(o_inventory_place_14.x,o_inventory_place_14.y,"buttons",o_rogue_ring_anil_inv2);
+					o_rogue_ring_anil_inv2.position = 14;
+					place_14 = false;
+					global.ring_anil_id_2 = noone;
+				} else if global.ring_anil_id_3 == false {
+					instance_create_layer(o_inventory_place_14.x,o_inventory_place_14.y,"buttons",o_rogue_ring_anil_inv3);
+					o_rogue_ring_anil_inv3.position = 14;
+					global.ring_anil_id_3 = noone;
+					place_14 = false;
+				}
+			
+			
+			
+		
+		} else if place_15 == true {
+		
+				if global.ring_anil_id_1 == false {
+					instance_create_layer(o_inventory_place_15.x,o_inventory_place_15.y,"buttons",o_rogue_ring_anil_inv);
+					o_rogue_ring_anil_inv.position = 15;
+					global.ring_anil_id_1 = noone;
+					place_15 = false;
+				} else if global.ring_anil_id_2 == false {
+					instance_create_layer(o_inventory_place_15.x,o_inventory_place_15.y,"buttons",o_rogue_ring_anil_inv2);
+					o_rogue_ring_anil_inv2.position = 15;
+					place_15 = false;
+					global.ring_anil_id_2 = noone;
+				} else if global.ring_anil_id_3 == false {
+					instance_create_layer(o_inventory_place_15.x,o_inventory_place_15.y,"buttons",o_rogue_ring_anil_inv3);
+					o_rogue_ring_anil_inv3.position = 15;
+					global.ring_anil_id_3 = noone;
+					place_15 = false;
+				}
+			
+			
+			
+		
+		} else if place_16 == true {
+		
+				if global.ring_anil_id_1 == false {
+					instance_create_layer(o_inventory_place_16.x,o_inventory_place_16.y,"buttons",o_rogue_ring_anil_inv);
+					o_rogue_ring_anil_inv.position = 16;
+					global.ring_anil_id_1 = noone;
+					place_16 = false;
+				} else if global.ring_anil_id_2 == false {
+					instance_create_layer(o_inventory_place_16.x,o_inventory_place_16.y,"buttons",o_rogue_ring_anil_inv2);
+					o_rogue_ring_anil_inv2.position = 16;
+					place_16 = false;
+					global.ring_anil_id_2 = noone;
+				} else if global.ring_anil_id_3 == false {
+					instance_create_layer(o_inventory_place_16.x,o_inventory_place_16.y,"buttons",o_rogue_ring_anil_inv3);
+					o_rogue_ring_anil_inv3.position = 16;
+					global.ring_anil_id_3 = noone;
+					place_16 = false;
+				}
+			
+			
+			
+		
+		} 
+	} 
+else {
 	sprite_index = noone;		
 }
