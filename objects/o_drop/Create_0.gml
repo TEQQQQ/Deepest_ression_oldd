@@ -35,7 +35,7 @@ pacavra_pants_drop_rate = 50;
 pacavra_pants_drop_chance = random_range(0,100);
 pacavra_pants_drop = false;
 
-pacavra_boots_drop_rate = 50;
+pacavra_boots_drop_rate = 100;
 pacavra_boots_drop_chance = random_range(0,100);
 pacavra_boots_drop = false;
 
@@ -71,7 +71,7 @@ leather_gloves_drop_rate = 50;
 leather_gloves_drop_chance = random_range(0,100);
 leather_gloves_drop = false;
 
-leather_boots_drop_rate = 50;
+leather_boots_drop_rate = 100;
 leather_boots_drop_chance = random_range(0,100);
 leather_boots_drop = false;
 
