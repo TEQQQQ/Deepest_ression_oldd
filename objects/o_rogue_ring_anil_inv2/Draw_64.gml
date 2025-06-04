@@ -10,6 +10,6 @@ if room == Room1 and !instance_exists(o_tier1_1_bandicot) {
 
 
 
-draw_text(x,y,1);
+draw_text(x,y,2);
 
 

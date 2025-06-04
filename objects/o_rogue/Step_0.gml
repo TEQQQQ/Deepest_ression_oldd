@@ -589,9 +589,9 @@ if equipment_ring_1 == 1 {
 
 
 
-if equipment_ring_1 == 2 {
+if equipment_ring_1 == 3 {
 	if once_ring_1 == true {
-		inv_hp_ring_1 += 1000;
+		inv_hp_ring_1 += 20000;
 		inv_armor_ring_1 += 0;
 		inv_mana_ring_1 += 0;
 		inv_atak_ring_1 += 0;
@@ -681,9 +681,9 @@ if equipment_ring_2 == 1 {
 
 
 
-if equipment_ring_2 == 2 {
+if equipment_ring_2 == 3 {
 	if once_ring_2 == true {
-		inv_hp_ring_2 += 1000;
+		inv_hp_ring_2 += 20000;
 		inv_armor_ring_2 += 0;
 		inv_mana_ring_2 += 0;
 		inv_atak_ring_2 += 0;
