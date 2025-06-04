@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"s_rogue_jester_boots",
+  "%Name":"s_rogue_jester_pants",
   "bboxMode":0,
   "bbox_bottom":31,
   "bbox_left":0,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3cc9d7ec-89af-400d-97ed-73ee268d8add","name":"3cc9d7ec-89af-400d-97ed-73ee268d8add","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"14cefbd4-8c8e-421c-b28f-0f8f7b261bc2","name":"14cefbd4-8c8e-421c-b28f-0f8f7b261bc2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":8,
   "gridY":8,
@@ -21,7 +21,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"889f4146-eb9e-4bc7-80b4-060a9093c6b9","blendMode":0,"displayName":"default","isLocked":false,"name":"889f4146-eb9e-4bc7-80b4-060a9093c6b9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"s_rogue_jester_boots",
+  "name":"s_rogue_jester_pants",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"s_rogue_jester_boots",
+    "%Name":"s_rogue_jester_pants",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"s_rogue_jester_boots",
+    "name":"s_rogue_jester_pants",
     "playback":1,
     "playbackSpeed":5.0,
     "playbackSpeedType":0,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3cc9d7ec-89af-400d-97ed-73ee268d8add","path":"sprites/s_rogue_jester_boots/s_rogue_jester_boots.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5bb8d25b-4f6a-4a76-a75e-35e1977eff92","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"14cefbd4-8c8e-421c-b28f-0f8f7b261bc2","path":"sprites/s_rogue_jester_pants/s_rogue_jester_pants.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"22d98537-d239-4f4d-8a9c-9d670467c1b6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
