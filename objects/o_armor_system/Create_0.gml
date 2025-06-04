@@ -45,6 +45,13 @@ global.sunknight_id_3_pants = true;
 global.sunknight_id_4_pants = true;
 global.sunknight_id_5_pants = true;
 
+
+global.sunknight_id_1 = true;
+global.sunknight_id_2 = true;
+global.sunknight_id_3 = true;
+global.sunknight_id_4 = true;
+global.sunknight_id_5 = true;
+
 global.pacavra_id_1_boots = true;
 global.pacavra_id_2_boots = true;
 global.pacavra_id_3_boots = true;

@@ -98,6 +98,10 @@ if sunknight_pants_drop_rate >= sunknight_pants_drop_chance {
 	sunknight_pants_drop_rate = -1;
 }
 
+if sunknight_helmet_drop_rate >= sunknight_helmet_drop_chance {
+	sunknight_helmet_drop = true;
+	sunknight_helmet_drop_rate = -1;
+}
 
 if gold_drop  == true {
 	if !instance_exists(o_gold_drop){
@@ -1229,5 +1233,62 @@ if sunknight_pants_drop == true {
 			place_16 = false;
 		}
 		sunknight_pants_drop = false;
+	}
+}
+
+
+
+if sunknight_helmet_drop == true {
+	if !instance_exists(o_rogue_sunknight_helmet_drop){
+		if place_1 == true {
+			instance_create_layer(x+4,y+4,"effects",o_rogue_sunknight_helmet_drop);
+			place_1 = false;
+		} else if place_2 == true {
+			instance_create_layer(x+41,y+4,"effects",o_rogue_sunknight_helmet_drop);
+			place_2 = false;
+		} else if place_3 == true {
+			instance_create_layer(x+78,y+4,"effects",o_rogue_sunknight_helmet_drop);
+			place_3 = false;
+		} else if place_4 == true {
+			instance_create_layer(x+115,y+4,"effects",o_rogue_sunknight_helmet_drop);
+			place_4 = false;
+		} else if place_5 == true {
+			instance_create_layer(x+4,y+41,"effects",o_rogue_sunknight_helmet_drop);
+			place_5 = false;
+		} else if place_6 == true {
+			instance_create_layer(x+41,y+41,"effects",o_rogue_sunknight_helmet_drop);
+			place_6 = false;
+		} else if place_7 == true {
+			instance_create_layer(x+78,y+41,"effects",o_rogue_sunknight_helmet_drop);
+			place_7 = false;
+		} else if place_8 == true {
+			instance_create_layer(x+115,y+41,"effects",o_rogue_sunknight_helmet_drop);
+			place_8 = false;
+		} else if place_9 == true {
+			instance_create_layer(x+4,y+78,"effects",o_rogue_sunknight_helmet_drop);
+			place_9 = false;
+		} else if place_10 == true {
+			instance_create_layer(x+41,y+78,"effects",o_rogue_sunknight_helmet_drop);
+			place_10 = false;
+		} else if place_11 == true {
+			instance_create_layer(x+78,y+78,"effects",o_rogue_sunknight_helmet_drop);
+			place_11 = false;
+		} else if place_12 == true {
+			instance_create_layer(x+115,y+78,"effects",o_rogue_sunknight_helmet_drop);
+			place_12 = false;
+		} else if place_13 == true {
+			instance_create_layer(x+4,y+115,"effects",o_rogue_sunknight_helmet_drop);
+			place_13 = false;
+		} else if place_14 == true {
+			instance_create_layer(x+41,y+115,"effects",o_rogue_sunknight_helmet_drop);
+			place_14 = false;
+		} else if place_15 == true {
+			instance_create_layer(x+78,y+115,"effects",o_rogue_sunknight_helmet_drop);
+			place_15 = false;
+		} else if place_16 == true {
+			instance_create_layer(x+115,y+115,"effects",o_rogue_sunknight_helmet_drop);
+			place_16 = false;
+		}
+		sunknight_helmet_drop = false;
 	}
 }

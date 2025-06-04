@@ -404,6 +404,17 @@ if equipment_helmet == 2 {
 	}
 }
 
+
+if equipment_helmet == 3 {
+	if once_helmet == true {
+		inv_hp_helmet += 700;
+		inv_armor_helmet += 55;
+		max_hp += inv_hp_helmet;
+		armor += inv_armor_helmet;
+		once_helmet = false;
+	}
+}
+
 //chests
 if previous_equipment_chest != equipment_chest {
 	if once_chest == false {

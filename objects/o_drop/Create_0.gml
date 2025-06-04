@@ -87,6 +87,10 @@ sunknight_pants_drop_rate = 100;
 sunknight_pants_drop_chance = random_range(0,100);
 sunknight_pants_drop = false;
 
+sunknight_helmet_drop_rate = 100;
+sunknight_helmet_drop_chance = random_range(0,100);
+sunknight_helmet_drop = false;
+
 place_1 = true;
 place_2 = true;
 place_3 = true;
