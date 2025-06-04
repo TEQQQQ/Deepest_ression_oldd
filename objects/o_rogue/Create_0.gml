@@ -322,6 +322,8 @@ pacavra_pants = 0; // equip value = 1
 ring_serpent = 0; //equip value = 1
 ring_lousy = 0; //equip value = 2
 
+ring_anil = 0;//equip value = 3
+
 belt_lichking = 0; //equip value = 1
 
 neck_flashily = 0; //equip value = 1

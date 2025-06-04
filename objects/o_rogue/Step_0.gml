@@ -462,6 +462,16 @@ if equipment_pants == 2 {
 	}
 }
 
+if equipment_pants == 3 {
+	if once_pants == true {
+		inv_hp_pants += 500;
+		inv_armor_pants += 50;
+		max_hp += inv_hp_pants;
+		armor += inv_armor_pants;
+		once_pants = false;
+	}
+}
+
 //botlar ayakkabılar
 if previous_equipment_boots != equipment_boots {
 	if once_boots == false {
