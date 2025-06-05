@@ -7,6 +7,9 @@ if room == Room1 {
 	
 	x = o_border_player.x+16;
 	y = o_border_player.y+16;
+	if o_rogue.equipment_chest == 3 {
+		sprite_index = s_sunknight_torso;
+	}
 	if o_rogue.equipment_chest == 1 {
 		sprite_index = s_pacavra_torso;
 	}

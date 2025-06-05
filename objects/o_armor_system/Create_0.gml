@@ -46,6 +46,13 @@ global.sunknight_id_4_pants = true;
 global.sunknight_id_5_pants = true;
 
 
+global.sunknight_id_1_chest = true;
+global.sunknight_id_2_chest = true;
+global.sunknight_id_3_chest = true;
+global.sunknight_id_4_chest = true;
+global.sunknight_id_5_chest = true;
+
+
 global.sunknight_id_1 = true;
 global.sunknight_id_2 = true;
 global.sunknight_id_3 = true;
