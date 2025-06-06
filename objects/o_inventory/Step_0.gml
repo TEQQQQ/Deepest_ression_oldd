@@ -6082,12 +6082,11 @@ if global.text_info == true {
 					global.leather_id_5_chest = noone;
 					place_16 = false;
 				}
-			
-			
-			
-		
 		} 
 	} 
+	
+	
+	
 
 	if o_rogue.pacavra_gloves = 2 {
 		if place_1 == true {
@@ -6598,12 +6597,13 @@ if global.text_info == true {
 					global.leather_id_5_gloves = noone;
 					place_16 = false;
 				}
-			
-			
-			
-		
 		} 
 	} 
+	
+	
+	
+	
+	
 	if o_rogue.pacavra_boots = 2 {
 		if place_1 == true {
 				if global.leather_id_1_boots == false {
@@ -9554,11 +9554,524 @@ if o_rogue.pacavra_torso = 3 {
 					o_rogue_sunknight_chest_inv5.position = 16;
 					global.sunknight_id_5_chest = noone;
 					place_16 = false;
-				}		
-		
+				}			
 		} 
 	} 
 
+
+
+
+if o_rogue.pacavra_gloves = 3 {
+		if place_1 == true {
+				if global.sunknight_id_1_gloves == false {
+					instance_create_layer(o_inventory_place_1.x,o_inventory_place_1.y,"buttons",o_rogue_sunknight_gloves_inv);
+					o_rogue_sunknight_gloves_inv.position = 1;
+					place_1 = false;
+					global.sunknight_id_1_gloves = noone;
+				} else if global.sunknight_id_2_gloves == false {
+					instance_create_layer(o_inventory_place_1.x,o_inventory_place_1.y,"buttons",o_rogue_sunknight_gloves_inv2);
+					o_rogue_sunknight_gloves_inv2.position = 1;
+					place_1 = false;
+					global.sunknight_id_2_gloves = noone;
+				} else if global.sunknight_id_3_gloves == false {
+					instance_create_layer(o_inventory_place_1.x,o_inventory_place_1.y,"buttons",o_rogue_sunknight_gloves_inv3);
+					o_rogue_sunknight_gloves_inv3.position = 1;
+					place_1 = false;
+					global.sunknight_id_3_gloves = noone;
+				} else if global.sunknight_id_4_gloves == false {
+					instance_create_layer(o_inventory_place_1.x,o_inventory_place_1.y,"buttons",o_rogue_sunknight_gloves_inv4);
+					o_rogue_sunknight_gloves_inv4.position = 1;
+					place_1 = false;
+					global.sunknight_id_4_gloves = noone;
+				} else if global.sunknight_id_5_gloves == false {
+					instance_create_layer(o_inventory_place_1.x,o_inventory_place_1.y,"buttons",o_rogue_sunknight_gloves_inv5);
+					o_rogue_sunknight_gloves_inv5.position = 1;
+					place_1 = false;
+					global.sunknight_id_5_gloves = noone;
+				}
+			
+			
+			
+		
+		} else if place_2 == true {
+		
+				if global.sunknight_id_1_gloves == false {
+					instance_create_layer(o_inventory_place_2.x,o_inventory_place_2.y,"buttons",o_rogue_sunknight_gloves_inv);
+					o_rogue_sunknight_gloves_inv.position = 2;
+					global.sunknight_id_1_gloves = noone;
+					place_2 = false;
+				} else if global.sunknight_id_2_gloves == false {
+					instance_create_layer(o_inventory_place_2.x,o_inventory_place_2.y,"buttons",o_rogue_sunknight_gloves_inv2);
+					o_rogue_sunknight_gloves_inv2.position = 2;
+					place_2 = false;
+					global.sunknight_id_2_gloves = noone;
+				} else if global.sunknight_id_3_gloves == false {
+					instance_create_layer(o_inventory_place_2.x,o_inventory_place_2.y,"buttons",o_rogue_sunknight_gloves_inv3);
+					o_rogue_sunknight_gloves_inv3.position = 2;
+					place_2 = false;
+					global.sunknight_id_3_gloves = noone;
+				} else if global.sunknight_id_4_gloves == false {
+					instance_create_layer(o_inventory_place_2.x,o_inventory_place_2.y,"buttons",o_rogue_sunknight_gloves_inv4);
+					o_rogue_sunknight_gloves_inv4.position = 2;
+					global.sunknight_id_4_gloves = noone;
+					place_2 = false;
+				} else if global.sunknight_id_5_gloves == false {
+					instance_create_layer(o_inventory_place_2.x,o_inventory_place_2.y,"buttons",o_rogue_sunknight_gloves_inv5);
+					o_rogue_sunknight_gloves_inv5.position = 2;
+					global.sunknight_id_5_gloves = noone;
+					place_2 = false;
+				}
+			
+			
+			
+		
+		} else if place_3 == true {
+		
+				if global.sunknight_id_1_gloves == false {
+					instance_create_layer(o_inventory_place_3.x,o_inventory_place_3.y,"buttons",o_rogue_sunknight_gloves_inv);
+					o_rogue_sunknight_gloves_inv.position = 3;
+					global.sunknight_id_1_gloves = noone;
+					place_3 = false;
+				} else if global.sunknight_id_2_gloves == false {
+					instance_create_layer(o_inventory_place_3.x,o_inventory_place_3.y,"buttons",o_rogue_sunknight_gloves_inv2);
+					o_rogue_sunknight_gloves_inv2.position = 3;
+					global.sunknight_id_2_gloves = noone;
+					place_3 = false;
+				} else if global.sunknight_id_3_gloves == false {
+					instance_create_layer(o_inventory_place_3.x,o_inventory_place_3.y,"buttons",o_rogue_sunknight_gloves_inv3);
+					o_rogue_sunknight_gloves_inv3.position = 3;
+					global.sunknight_id_3_gloves = noone;
+					place_3 = false;
+				} else if global.sunknight_id_4_gloves == false {
+					instance_create_layer(o_inventory_place_3.x,o_inventory_place_3.y,"buttons",o_rogue_sunknight_gloves_inv4);
+					o_rogue_sunknight_gloves_inv4.position = 3;
+					global.sunknight_id_4_gloves = noone;
+					place_3 = false;
+				} else if global.sunknight_id_5_gloves == false {
+					instance_create_layer(o_inventory_place_3.x,o_inventory_place_3.y,"buttons",o_rogue_sunknight_gloves_inv5);
+					o_rogue_sunknight_gloves_inv5.position = 3;
+					global.sunknight_id_5_gloves = noone;
+					place_3 = false;
+				}
+			
+			
+			
+		
+		} else if place_4 == true {
+		
+				if global.sunknight_id_1_gloves == false {
+					instance_create_layer(o_inventory_place_4.x,o_inventory_place_4.y,"buttons",o_rogue_sunknight_gloves_inv);
+					o_rogue_sunknight_gloves_inv.position = 4;
+					global.sunknight_id_1_gloves = noone;
+					place_4 = false;
+				} else if global.sunknight_id_2_gloves == false {
+					instance_create_layer(o_inventory_place_4.x,o_inventory_place_4.y,"buttons",o_rogue_sunknight_gloves_inv2);
+					o_rogue_sunknight_gloves_inv2.position = 4;
+					place_4 = false;
+					global.sunknight_id_2_gloves = noone;
+				} else if global.sunknight_id_3_gloves == false {
+					instance_create_layer(o_inventory_place_4.x,o_inventory_place_4.y,"buttons",o_rogue_sunknight_gloves_inv3);
+					o_rogue_sunknight_gloves_inv3.position = 4;
+					place_4 = false;
+					global.sunknight_id_3_gloves = noone;
+				} else if global.sunknight_id_4_gloves == false {
+					instance_create_layer(o_inventory_place_4.x,o_inventory_place_4.y,"buttons",o_rogue_sunknight_gloves_inv4);
+					o_rogue_sunknight_gloves_inv4.position = 4;
+					global.sunknight_id_4_gloves = noone;
+					place_4 = false;
+				} else if global.sunknight_id_5_gloves == false {
+					instance_create_layer(o_inventory_place_4.x,o_inventory_place_4.y,"buttons",o_rogue_sunknight_gloves_inv5);
+					o_rogue_sunknight_gloves_inv5.position = 4;
+					global.sunknight_id_5_gloves = noone;
+					place_4 = false;
+				}
+			
+			
+			
+		
+		} else if place_5 == true {
+		
+				if global.sunknight_id_1_gloves == false {
+					instance_create_layer(o_inventory_place_5.x,o_inventory_place_5.y,"buttons",o_rogue_sunknight_gloves_inv);
+					o_rogue_sunknight_gloves_inv.position = 5;
+					place_5 = false;
+					global.sunknight_id_1_gloves = noone;
+				} else if global.sunknight_id_2_gloves == false {
+					instance_create_layer(o_inventory_place_5.x,o_inventory_place_5.y,"buttons",o_rogue_sunknight_gloves_inv2);
+					o_rogue_sunknight_gloves_inv2.position = 5;
+					place_5 = false;
+					global.sunknight_id_2_gloves = noone;
+				} else if global.sunknight_id_3_gloves == false {
+					instance_create_layer(o_inventory_place_5.x,o_inventory_place_5.y,"buttons",o_rogue_sunknight_gloves_inv3);
+					o_rogue_sunknight_gloves_inv3.position = 5;
+					place_5 = false;
+					global.sunknight_id_3_gloves = noone;
+				} else if global.sunknight_id_4_gloves == false {
+					instance_create_layer(o_inventory_place_5.x,o_inventory_place_5.y,"buttons",o_rogue_sunknight_gloves_inv4);
+					o_rogue_sunknight_gloves_inv4.position = 5;
+					place_5 = false;
+					global.sunknight_id_4_gloves = noone;
+				} else if global.sunknight_id_5_gloves == false {
+					instance_create_layer(o_inventory_place_5.x,o_inventory_place_5.y,"buttons",o_rogue_sunknight_gloves_inv5);
+					o_rogue_sunknight_gloves_inv5.position = 5;
+					global.sunknight_id_5_gloves = noone;
+					place_5 = false;
+				}
+		
+			
+			
+		
+		} else if place_6 == true {
+		
+				if global.sunknight_id_1_gloves == false {
+					instance_create_layer(o_inventory_place_6.x,o_inventory_place_6.y,"buttons",o_rogue_sunknight_gloves_inv);
+					o_rogue_sunknight_gloves_inv.position = 6;
+					global.sunknight_id_1_gloves = noone;
+					place_6 = false;
+				} else if global.sunknight_id_2_gloves == false {
+					instance_create_layer(o_inventory_place_6.x,o_inventory_place_6.y,"buttons",o_rogue_sunknight_gloves_inv2);
+					o_rogue_sunknight_gloves_inv2.position = 6;
+					global.sunknight_id_2_gloves = noone;
+					place_6 = false;
+				} else if global.sunknight_id_3_gloves == false {
+					instance_create_layer(o_inventory_place_6.x,o_inventory_place_6.y,"buttons",o_rogue_sunknight_gloves_inv3);
+					o_rogue_sunknight_gloves_inv3.position = 6;
+					global.sunknight_id_3_gloves = noone;
+					place_6 = false;
+				} else if global.sunknight_id_4_gloves == false {
+					instance_create_layer(o_inventory_place_6.x,o_inventory_place_6.y,"buttons",o_rogue_sunknight_gloves_inv4);
+					o_rogue_sunknight_gloves_inv4.position = 6;
+					global.sunknight_id_4_gloves = noone;
+					place_6 = false;
+				} else if global.sunknight_id_5_gloves == false {
+					instance_create_layer(o_inventory_place_6.x,o_inventory_place_6.y,"buttons",o_rogue_sunknight_gloves_inv5);
+					o_rogue_sunknight_gloves_inv5.position = 6;
+					global.sunknight_id_5_gloves = noone;
+					place_6 = false;
+				}
+			
+			
+			
+		
+		} else if place_7 == true {
+		
+				if global.sunknight_id_1_gloves == false {
+					instance_create_layer(o_inventory_place_7.x,o_inventory_place_7.y,"buttons",o_rogue_sunknight_gloves_inv);
+					o_rogue_sunknight_gloves_inv.position = 7;
+					place_7 = false;
+					global.sunknight_id_1_gloves = noone;
+				} else if global.sunknight_id_2_gloves == false {
+					instance_create_layer(o_inventory_place_7.x,o_inventory_place_7.y,"buttons",o_rogue_sunknight_gloves_inv2);
+					o_rogue_sunknight_gloves_inv2.position = 7;
+					place_7 = false;
+					global.sunknight_id_2_gloves = noone;
+				} else if global.sunknight_id_3_gloves == false {
+					instance_create_layer(o_inventory_place_7.x,o_inventory_place_7.y,"buttons",o_rogue_sunknight_gloves_inv3);
+					o_rogue_sunknight_gloves_inv3.position = 7;
+					place_7 = false;
+					global.sunknight_id_3_gloves = noone;
+				} else if global.sunknight_id_4_gloves == false {
+					instance_create_layer(o_inventory_place_7.x,o_inventory_place_7.y,"buttons",o_rogue_sunknight_gloves_inv4);
+					o_rogue_sunknight_gloves_inv4.position = 7;
+					place_7 = false;
+					global.sunknight_id_4_gloves = noone;
+				} else if global.sunknight_id_5_gloves == false {
+					instance_create_layer(o_inventory_place_7.x,o_inventory_place_7.y,"buttons",o_rogue_sunknight_gloves_inv5);
+					o_rogue_sunknight_gloves_inv5.position = 7;
+					place_7 = false;
+					global.sunknight_id_5_gloves = noone;
+				}
+			
+			
+			
+		
+		} else if place_8 == true {
+		
+				if global.sunknight_id_1_gloves == false {
+					instance_create_layer(o_inventory_place_8.x,o_inventory_place_8.y,"buttons",o_rogue_sunknight_gloves_inv);
+					o_rogue_sunknight_gloves_inv.position = 8;
+					global.sunknight_id_1_gloves = noone;
+					place_8 = false;
+				} else if global.sunknight_id_2_gloves == false {
+					instance_create_layer(o_inventory_place_8.x,o_inventory_place_8.y,"buttons",o_rogue_sunknight_gloves_inv2);
+					o_rogue_sunknight_gloves_inv2.position = 8;
+					global.sunknight_id_2_gloves = noone;
+					place_8 = false;
+				} else if global.sunknight_id_3_gloves == false {
+					instance_create_layer(o_inventory_place_8.x,o_inventory_place_8.y,"buttons",o_rogue_sunknight_gloves_inv3);
+					o_rogue_sunknight_gloves_inv3.position = 8;
+					global.sunknight_id_3_gloves = noone;
+					place_8 = false;
+				} else if global.sunknight_id_4_gloves == false {
+					instance_create_layer(o_inventory_place_8.x,o_inventory_place_8.y,"buttons",o_rogue_sunknight_gloves_inv4);
+					o_rogue_sunknight_gloves_inv4.position = 8;
+					global.sunknight_id_4_gloves = noone;
+					place_8 = false;
+				} else if global.sunknight_id_5_gloves == false {
+					instance_create_layer(o_inventory_place_8.x,o_inventory_place_8.y,"buttons",o_rogue_sunknight_gloves_inv5);
+					o_rogue_sunknight_gloves_inv5.position = 8;
+					global.sunknight_id_5_gloves = noone;
+					place_8 = false;
+				}
+			
+			
+			
+		
+		} else if place_9 == true {
+		
+				if global.sunknight_id_1_gloves == false {
+					instance_create_layer(o_inventory_place_9.x,o_inventory_place_9.y,"buttons",o_rogue_sunknight_gloves_inv);
+					o_rogue_sunknight_gloves_inv.position = 9;
+					global.sunknight_id_1_gloves = noone;
+					place_9 = false;
+				} else if global.sunknight_id_2_gloves == false {
+					instance_create_layer(o_inventory_place_9.x,o_inventory_place_9.y,"buttons",o_rogue_sunknight_gloves_inv2);
+					o_rogue_sunknight_gloves_inv2.position = 9;
+					global.sunknight_id_2_gloves = noone;
+					place_9 = false;
+				} else if global.sunknight_id_3_gloves == false {
+					instance_create_layer(o_inventory_place_9.x,o_inventory_place_9.y,"buttons",o_rogue_sunknight_gloves_inv3);
+					o_rogue_sunknight_gloves_inv3.position = 9;
+					global.sunknight_id_3_gloves = noone;
+					place_9 = false;
+				} else if global.sunknight_id_4_gloves == false {
+					instance_create_layer(o_inventory_place_9.x,o_inventory_place_9.y,"buttons",o_rogue_sunknight_gloves_inv4);
+					o_rogue_sunknight_gloves_inv4.position = 9;
+					global.sunknight_id_4_gloves = noone;
+					place_9 = false;
+				} else if global.sunknight_id_5_gloves == false {
+					instance_create_layer(o_inventory_place_9.x,o_inventory_place_9.y,"buttons",o_rogue_sunknight_gloves_inv5);
+					o_rogue_sunknight_gloves_inv5.position = 9;
+					global.sunknight_id_5_gloves = noone;
+					place_9 = false;
+				}
+			
+			
+			
+		
+		} else if place_10 == true {
+		
+				if global.sunknight_id_1_gloves == false {
+					instance_create_layer(o_inventory_place_10.x,o_inventory_place_10.y,"buttons",o_rogue_sunknight_gloves_inv);
+					o_rogue_sunknight_gloves_inv.position = 10;
+					global.sunknight_id_1_gloves = noone;
+					place_10 = false;
+				} else if global.sunknight_id_2_gloves == false {
+					instance_create_layer(o_inventory_place_10.x,o_inventory_place_10.y,"buttons",o_rogue_sunknight_gloves_inv2);
+					o_rogue_sunknight_gloves_inv2.position = 10;
+					global.sunknight_id_2_gloves = noone;
+					place_10 = false;
+				} else if global.sunknight_id_3_gloves == false {
+					instance_create_layer(o_inventory_place_10.x,o_inventory_place_10.y,"buttons",o_rogue_sunknight_gloves_inv3);
+					o_rogue_sunknight_gloves_inv3.position = 10;
+					global.sunknight_id_3_gloves = noone;
+					place_10 = false;
+				} else if global.sunknight_id_4_gloves == false {
+					instance_create_layer(o_inventory_place_10.x,o_inventory_place_10.y,"buttons",o_rogue_sunknight_gloves_inv4);
+					o_rogue_sunknight_gloves_inv4.position = 10;
+					global.sunknight_id_4_gloves = noone;
+					place_10 = false;
+				} else if global.sunknight_id_5_gloves == false {
+					instance_create_layer(o_inventory_place_10.x,o_inventory_place_10.y,"buttons",o_rogue_sunknight_gloves_inv5);
+					o_rogue_sunknight_gloves_inv5.position = 10;
+					global.sunknight_id_5_gloves = noone;
+					place_10 = false;
+				}
+			
+			
+			
+		
+		} else if place_11 == true {
+		
+				if global.sunknight_id_1_gloves == false {
+					instance_create_layer(o_inventory_place_11.x,o_inventory_place_11.y,"buttons",o_rogue_sunknight_gloves_inv);
+					o_rogue_sunknight_gloves_inv.position = 11;
+					global.sunknight_id_1_gloves = noone;
+					place_11 = false;
+				} else if global.sunknight_id_2_gloves == false {
+					instance_create_layer(o_inventory_place_11.x,o_inventory_place_11.y,"buttons",o_rogue_sunknight_gloves_inv2);
+					o_rogue_sunknight_gloves_inv2.position = 11;
+					global.sunknight_id_2_gloves = noone;
+					place_11 = false;
+				} else if global.sunknight_id_3_gloves == false {
+					instance_create_layer(o_inventory_place_11.x,o_inventory_place_11.y,"buttons",o_rogue_sunknight_gloves_inv3);
+					o_rogue_sunknight_gloves_inv3.position = 11;
+					global.sunknight_id_3_gloves = noone;
+					place_11 = false;
+				} else if global.sunknight_id_4_gloves == false {
+					instance_create_layer(o_inventory_place_11.x,o_inventory_place_11.y,"buttons",o_rogue_sunknight_gloves_inv4);
+					o_rogue_sunknight_gloves_inv4.position = 11;
+					global.sunknight_id_4_gloves = noone;
+					place_11 = false;
+				} else if global.sunknight_id_5_gloves == false {
+					instance_create_layer(o_inventory_place_11.x,o_inventory_place_11.y,"buttons",o_rogue_sunknight_gloves_inv5);
+					o_rogue_sunknight_gloves_inv5.position = 11;
+					global.sunknight_id_5_gloves = noone;
+					place_11 = false;
+				
+				}
+			
+			
+			
+		
+		} else if place_12 == true {
+		
+				if global.sunknight_id_1_gloves == false {
+					instance_create_layer(o_inventory_place_12.x,o_inventory_place_12.y,"buttons",o_rogue_sunknight_gloves_inv);
+					o_rogue_sunknight_gloves_inv.position = 12;
+					global.sunknight_id_1_gloves = noone;
+					place_12 = false;
+				} else if global.sunknight_id_2_gloves == false {
+					instance_create_layer(o_inventory_place_12.x,o_inventory_place_12.y,"buttons",o_rogue_sunknight_gloves_inv2);
+					o_rogue_sunknight_gloves_inv2.position = 12;
+					global.sunknight_id_2_gloves = noone;
+					place_12 = false;
+				} else if global.sunknight_id_3_gloves == false {
+					instance_create_layer(o_inventory_place_12.x,o_inventory_place_12.y,"buttons",o_rogue_sunknight_gloves_inv3);
+					o_rogue_sunknight_gloves_inv3.position = 12;
+					global.sunknight_id_3_gloves = noone;
+					place_12 = false;
+				} else if global.sunknight_id_4_gloves == false {
+					instance_create_layer(o_inventory_place_12.x,o_inventory_place_12.y,"buttons",o_rogue_sunknight_gloves_inv4);
+					o_rogue_sunknight_gloves_inv4.position = 12;
+					global.sunknight_id_4_gloves = noone;
+					place_12 = false;
+				} else if global.sunknight_id_5_gloves == false {
+					instance_create_layer(o_inventory_place_12.x,o_inventory_place_12.y,"buttons",o_rogue_sunknight_gloves_inv5);
+					o_rogue_sunknight_gloves_inv5.position = 12;
+					global.sunknight_id_5_gloves = noone;
+					place_12 = false;
+				}
+			
+			
+			
+		
+		} else if place_13 == true {
+		
+				if global.sunknight_id_1_gloves == false {
+					instance_create_layer(o_inventory_place_13.x,o_inventory_place_13.y,"buttons",o_rogue_sunknight_gloves_inv);
+					o_rogue_sunknight_gloves_inv.position = 13;
+					place_13 = false;
+					global.sunknight_id_1_gloves = noone;
+				} else if global.sunknight_id_2_gloves == false {
+					instance_create_layer(o_inventory_place_13.x,o_inventory_place_13.y,"buttons",o_rogue_sunknight_gloves_inv2);
+					o_rogue_sunknight_gloves_inv2.position = 13;
+					place_13 = false;
+					global.sunknight_id_2_gloves = noone;
+				} else if global.sunknight_id_3_gloves == false {
+					instance_create_layer(o_inventory_place_13.x,o_inventory_place_13.y,"buttons",o_rogue_sunknight_gloves_inv3);
+					o_rogue_sunknight_gloves_inv3.position = 13;
+					place_13 = false;
+					global.sunknight_id_3_gloves = noone;
+				} else if global.sunknight_id_4_gloves == false {
+					instance_create_layer(o_inventory_place_13.x,o_inventory_place_13.y,"buttons",o_rogue_sunknight_gloves_inv4);
+					o_rogue_sunknight_gloves_inv4.position = 13;
+					place_13 = false;
+					global.sunknight_id_4_gloves = noone;
+				} else if global.sunknight_id_5_gloves == false {
+					instance_create_layer(o_inventory_place_13.x,o_inventory_place_13.y,"buttons",o_rogue_sunknight_gloves_inv5);
+					o_rogue_sunknight_gloves_inv5.position = 13;
+					global.sunknight_id_5_gloves = noone;
+					place_13 = false;
+				}
+			
+			
+			
+		
+		} else if place_14 == true {
+		
+				if global.sunknight_id_1_gloves == false {
+					instance_create_layer(o_inventory_place_14.x,o_inventory_place_14.y,"buttons",o_rogue_sunknight_gloves_inv);
+					o_rogue_sunknight_gloves_inv.position = 14;
+					global.sunknight_id_1_gloves = noone;
+					place_14 = false;
+				} else if global.sunknight_id_2_gloves == false {
+					instance_create_layer(o_inventory_place_14.x,o_inventory_place_14.y,"buttons",o_rogue_sunknight_gloves_inv2);
+					o_rogue_sunknight_gloves_inv2.position = 14;
+					global.sunknight_id_2_gloves = noone;
+					place_14 = false;
+				} else if global.sunknight_id_3_gloves == false {
+					instance_create_layer(o_inventory_place_14.x,o_inventory_place_14.y,"buttons",o_rogue_sunknight_gloves_inv3);
+					o_rogue_sunknight_gloves_inv3.position = 14;
+					global.sunknight_id_3_gloves = noone;
+					place_14 = false;
+				} else if global.sunknight_id_4_gloves == false {
+					instance_create_layer(o_inventory_place_14.x,o_inventory_place_14.y,"buttons",o_rogue_sunknight_gloves_inv4);
+					o_rogue_sunknight_gloves_inv4.position = 14;
+					global.sunknight_id_4_gloves = noone;
+					place_14 = false;
+				} else if global.sunknight_id_5_gloves == false {
+					instance_create_layer(o_inventory_place_14.x,o_inventory_place_14.y,"buttons",o_rogue_sunknight_gloves_inv5);
+					o_rogue_sunknight_gloves_inv5.position = 14;
+					global.sunknight_id_5_gloves = noone;
+					place_14 = false;
+				}
+			
+			
+			
+		
+		} else if place_15 == true {
+		
+				if global.sunknight_id_1_gloves == false {
+					instance_create_layer(o_inventory_place_15.x,o_inventory_place_15.y,"buttons",o_rogue_sunknight_gloves_inv);
+					o_rogue_sunknight_gloves_inv.position = 15;
+					place_15 = false;
+					global.sunknight_id_1_gloves = noone;
+				} else if global.sunknight_id_2_gloves == false {
+					instance_create_layer(o_inventory_place_15.x,o_inventory_place_15.y,"buttons",o_rogue_sunknight_gloves_inv2);
+					o_rogue_sunknight_gloves_inv2.position = 15;
+					place_15 = false;
+					global.sunknight_id_2_gloves = noone;
+				} else if global.sunknight_id_3_gloves == false {
+					instance_create_layer(o_inventory_place_15.x,o_inventory_place_15.y,"buttons",o_rogue_sunknight_gloves_inv3);
+					o_rogue_sunknight_gloves_inv3.position = 15;
+					place_15 = false;
+					global.sunknight_id_3_gloves = noone;
+				} else if global.sunknight_id_4_gloves == false {
+					instance_create_layer(o_inventory_place_15.x,o_inventory_place_15.y,"buttons",o_rogue_sunknight_gloves_inv4);
+					o_rogue_sunknight_gloves_inv4.position = 15;
+					place_15 = false;
+					global.sunknight_id_4_gloves = noone;
+				} else if global.sunknight_id_5_gloves == false {
+					instance_create_layer(o_inventory_place_15.x,o_inventory_place_15.y,"buttons",o_rogue_sunknight_gloves_inv5);
+					o_rogue_sunknight_gloves_inv5.position = 15;
+					place_15 = false;
+					global.sunknight_id_5_gloves = noone;
+				}
+			
+			
+			
+		
+		} else if place_16 == true {
+		
+				if global.sunknight_id_1_gloves == false {
+					instance_create_layer(o_inventory_place_16.x,o_inventory_place_16.y,"buttons",o_rogue_sunknight_gloves_inv);
+					o_rogue_sunknight_gloves_inv.position = 16;
+					global.sunknight_id_1_gloves = noone;
+					place_16 = false;
+				} else if global.sunknight_id_2_gloves == false {
+					instance_create_layer(o_inventory_place_16.x,o_inventory_place_16.y,"buttons",o_rogue_sunknight_gloves_inv2);
+					o_rogue_sunknight_gloves_inv2.position = 16;
+					global.sunknight_id_2_gloves = noone;
+					place_16 = false;
+				} else if global.sunknight_id_3_gloves == false {
+					instance_create_layer(o_inventory_place_16.x,o_inventory_place_16.y,"buttons",o_rogue_sunknight_gloves_inv3);
+					o_rogue_sunknight_gloves_inv3.position = 16;
+					global.sunknight_id_3_gloves = noone;
+					place_16 = false;
+				} else if global.sunknight_id_4_gloves == false {
+					instance_create_layer(o_inventory_place_16.x,o_inventory_place_16.y,"buttons",o_rogue_sunknight_gloves_inv4);
+					o_rogue_sunknight_gloves_inv4.position = 16;
+					place_16 = false;
+					global.sunknight_id_4_gloves = noone;
+				} else if global.sunknight_id_5_gloves == false {
+					instance_create_layer(o_inventory_place_16.x,o_inventory_place_16.y,"buttons",o_rogue_sunknight_gloves_inv5);
+					o_rogue_sunknight_gloves_inv5.position = 16;
+					global.sunknight_id_5_gloves = noone;
+					place_16 = false;
+				}
+		} 
+	} 
 
 
 

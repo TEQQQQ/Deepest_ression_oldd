@@ -83,6 +83,13 @@ global.leather_id_3_gloves = true;
 global.leather_id_4_gloves = true;
 global.leather_id_5_gloves = true;
 
+global.sunknight_id_1_gloves = true;
+global.sunknight_id_2_gloves = true;
+global.sunknight_id_3_gloves = true;
+global.sunknight_id_4_gloves = true;
+global.sunknight_id_5_gloves = true;
+
+
 global.ring_serpent_id_1 = true;
 global.ring_serpent_id_2 = true;
 global.ring_serpent_id_3 = true;

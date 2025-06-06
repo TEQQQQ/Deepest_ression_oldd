@@ -95,6 +95,10 @@ sunknight_chest_drop_rate = 100;
 sunknight_chest_drop_chance = random_range(0,100);
 sunknight_chest_drop = false;
 
+sunknight_gloves_drop_rate = 100;
+sunknight_gloves_drop_chance = random_range(0,100);
+sunknight_gloves_drop = false;
+
 place_1 = true;
 place_2 = true;
 place_3 = true;
