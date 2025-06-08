@@ -71,6 +71,13 @@ global.leather_id_3_boots = true;
 global.leather_id_4_boots = true;
 global.leather_id_5_boots = true;
 
+global.sunknight_id_1_boots = true;
+global.sunknight_id_2_boots = true;
+global.sunknight_id_3_boots = true;
+global.sunknight_id_4_boots = true;
+global.sunknight_id_5_boots = true;
+
+
 global.pacavra_id_1_gloves = true;
 global.pacavra_id_2_gloves = true;
 global.pacavra_id_3_gloves = true;
@@ -82,6 +89,7 @@ global.leather_id_2_gloves = true;
 global.leather_id_3_gloves = true;
 global.leather_id_4_gloves = true;
 global.leather_id_5_gloves = true;
+
 
 global.sunknight_id_1_gloves = true;
 global.sunknight_id_2_gloves = true;
