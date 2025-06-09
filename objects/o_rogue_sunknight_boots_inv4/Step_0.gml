@@ -126,7 +126,7 @@ if inventory == false {
 
 if room == Room_info or room == Room1 {
 
-	if position_meeting(mouse_x,mouse_y,o_rogue_sunkngiht_boots_inv4){
+	if position_meeting(mouse_x,mouse_y,o_rogue_sunknight_boots_inv4){
 	
 		if global.mouse_item == 0 {
 			if mouse_check_button_pressed(mb_left){

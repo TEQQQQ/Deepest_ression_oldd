@@ -80,7 +80,7 @@
 			in_equipment = false;
 			position = 0;
 			//o_rogue.pacavra_helmet -= 1;
-			global.sunkngiht_id_5_boots = true;
+			global.sunknight_id_5_boots = true;
 			global.mouse_item = 0;
 			instance_destroy();
 		}
