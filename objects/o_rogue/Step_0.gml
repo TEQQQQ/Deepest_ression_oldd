@@ -404,11 +404,32 @@ if equipment_helmet == 2 {
 	}
 }
 
+
+if equipment_helmet == 3 {
+	if once_helmet == true {
+		inv_hp_helmet += 700;
+		inv_armor_helmet += 55;
+		max_hp += inv_hp_helmet;
+		armor += inv_armor_helmet;
+		once_helmet = false;
+	}
+}
+
 //chests
 if previous_equipment_chest != equipment_chest {
 	if once_chest == false {
 		once_chest = true;
 		previous_equipment_chest = equipment_chest;
+	}
+}
+
+if equipment_chest == 3 {
+	if once_chest == true {
+		inv_hp_chest += 550;
+		inv_armor_chest += 60;
+		max_hp += inv_hp_chest;
+		armor += inv_armor_chest;
+		once_chest = false;
 	}
 }
 
@@ -462,6 +483,16 @@ if equipment_pants == 2 {
 	}
 }
 
+if equipment_pants == 3 {
+	if once_pants == true {
+		inv_hp_pants += 500;
+		inv_armor_pants += 50;
+		max_hp += inv_hp_pants;
+		armor += inv_armor_pants;
+		once_pants = false;
+	}
+}
+
 //botlar ayakkabılar
 if previous_equipment_boots != equipment_boots {
 	if once_boots == false {
@@ -490,6 +521,16 @@ if equipment_boots == 2 {
 	}
 }
 
+if equipment_boots == 3 {
+	if once_boots == true {
+		inv_hp_boots += 225;
+		inv_armor_boots += 23;
+		max_hp += inv_hp_boots;
+		armor += inv_armor_boots;
+		once_boots = false;
+	}
+}
+
 //gloves
 if previous_equipment_gloves != equipment_gloves {
 	if once_gloves == false {
@@ -512,6 +553,16 @@ if equipment_gloves == 2 {
 	if once_gloves == true {
 		inv_hp_gloves += 300;
 		inv_armor_gloves += 20;
+		max_hp += inv_hp_gloves;
+		armor += inv_armor_gloves;
+		once_gloves = false;
+	}
+}
+
+if equipment_gloves == 3 {
+	if once_gloves == true {
+		inv_hp_gloves += 320;
+		inv_armor_gloves += 25;
 		max_hp += inv_hp_gloves;
 		armor += inv_armor_gloves;
 		once_gloves = false;
@@ -568,9 +619,9 @@ if equipment_ring_1 == 1 {
 
 
 
-if equipment_ring_1 == 2 {
+if equipment_ring_1 == 3 {
 	if once_ring_1 == true {
-		inv_hp_ring_1 += 1000;
+		inv_hp_ring_1 += 20000;
 		inv_armor_ring_1 += 0;
 		inv_mana_ring_1 += 0;
 		inv_atak_ring_1 += 0;
@@ -660,9 +711,9 @@ if equipment_ring_2 == 1 {
 
 
 
-if equipment_ring_2 == 2 {
+if equipment_ring_2 == 3 {
 	if once_ring_2 == true {
-		inv_hp_ring_2 += 1000;
+		inv_hp_ring_2 += 20000;
 		inv_armor_ring_2 += 0;
 		inv_mana_ring_2 += 0;
 		inv_atak_ring_2 += 0;

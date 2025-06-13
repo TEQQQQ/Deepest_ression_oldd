@@ -35,7 +35,7 @@ pacavra_pants_drop_rate = 50;
 pacavra_pants_drop_chance = random_range(0,100);
 pacavra_pants_drop = false;
 
-pacavra_boots_drop_rate = 50;
+pacavra_boots_drop_rate = 100;
 pacavra_boots_drop_chance = random_range(0,100);
 pacavra_boots_drop = false;
 
@@ -71,7 +71,7 @@ leather_gloves_drop_rate = 50;
 leather_gloves_drop_chance = random_range(0,100);
 leather_gloves_drop = false;
 
-leather_boots_drop_rate = 50;
+leather_boots_drop_rate = 100;
 leather_boots_drop_chance = random_range(0,100);
 leather_boots_drop = false;
 
@@ -79,6 +79,29 @@ leather_pants_drop_rate = 100;
 leather_pants_drop_chance = random_range(0,100);
 leather_pants_drop = false;
 
+ring_anil_drop_rate = 100;
+ring_anil_drop_chance = random_range(0,100);
+ring_anil_drop = false;
+
+sunknight_pants_drop_rate = 100;
+sunknight_pants_drop_chance = random_range(0,100);
+sunknight_pants_drop = false;
+
+sunknight_helmet_drop_rate = 100;
+sunknight_helmet_drop_chance = random_range(0,100);
+sunknight_helmet_drop = false;
+
+sunknight_chest_drop_rate = 100;
+sunknight_chest_drop_chance = random_range(0,100);
+sunknight_chest_drop = false;
+
+sunknight_gloves_drop_rate = 100;
+sunknight_gloves_drop_chance = random_range(0,100);
+sunknight_gloves_drop = false;
+
+sunknight_boots_drop_rate = 100;
+sunknight_boots_drop_chance = random_range(0,100);
+sunknight_boots_drop = false;
 
 place_1 = true;
 place_2 = true;

@@ -80,7 +80,7 @@
 			in_equipment = false;
 			position = 0;
 			//o_rogue.pacavra_helmet -= 1;
-			global.pacavra_id_1_pants = true;
+			global.leather_id_3_pants = true;
 			global.mouse_item = 0;
 			instance_destroy();
 		}
