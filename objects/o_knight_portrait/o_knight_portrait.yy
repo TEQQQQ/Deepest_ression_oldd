@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_character_knight",
-    "path":"sprites/s_character_knight/s_character_knight.yy",
+    "name":"s_body_arm_left_knight",
+    "path":"sprites/s_body_arm_left_knight/s_body_arm_left_knight.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_character_rogue",
-    "path":"sprites/s_character_rogue/s_character_rogue.yy",
+    "name":"Sprite405",
+    "path":"sprites/Sprite405/Sprite405.yy",
   },
   "spriteMaskId":null,
   "visible":true,
