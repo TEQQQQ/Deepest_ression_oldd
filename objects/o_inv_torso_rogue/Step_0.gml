@@ -3,7 +3,9 @@
 
 //zırhlar
 
-
+	if o_rogue.equipment_chest == 3 {
+		sprite_index = s_sunknight_torso;
+	}
 	if o_rogue.equipment_chest == 2 {
 		sprite_index = s_leather_torso;
 	}

@@ -13,6 +13,9 @@ if room == Room1 {
 	if o_rogue.equipment_pants == 0 {
 		sprite_index = s_body_pants_rogue;
 	}
+	if o_rogue.equipment_pants == 3 {
+		sprite_index = s_sunknight_pants;
+	}
 }
 
 

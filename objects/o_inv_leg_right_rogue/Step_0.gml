@@ -10,6 +10,9 @@
 	if o_rogue.equipment_boots == 2 {
 		sprite_index = s_leather_leg_right;
 	}
+	if o_rogue.equipment_boots == 3 {
+		sprite_index = s_sunknight_leg_right;
+	}
 	if o_rogue.equipment_boots == 0 {
 		sprite_index = s_body_leg_right_rogue;
 		

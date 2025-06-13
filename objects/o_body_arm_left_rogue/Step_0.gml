@@ -12,7 +12,9 @@ if room == Room1 {
 	if o_rogue.equipment_gloves == 2 {
 		sprite_index = s_leather_arm_left;
 	}
-	
+	if o_rogue.equipment_gloves == 3 {
+		sprite_index = s_sunknight_arm_left;
+	}
 	if o_rogue.equipment_gloves == 0 {
 		sprite_index = s_body_arm_left_rogue;
 	}

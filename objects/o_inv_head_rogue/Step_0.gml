@@ -4,6 +4,10 @@
 
 //zırhlar
 
+	if o_rogue.equipment_helmet == 3 {
+		sprite_index = s_sunknight_head;
+	}
+
 	if o_rogue.equipment_helmet == 2 {
 		sprite_index = s_leather_head;
 	}

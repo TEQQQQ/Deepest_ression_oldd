@@ -137,7 +137,7 @@ if room == Room_info or room == Room1 {
 				if mouse_check_button_pressed(mb_right){
 					if in_equipment == false {
 						if o_rogue.equipment_ring_1 == 0 {
-							o_rogue.equipment_ring_1 = 2;
+							o_rogue.equipment_ring_1 = 3;
 							in_equipment = true;
 							// konumlar zırh takmak için
 						
@@ -210,7 +210,7 @@ if room == Room_info or room == Room1 {
 						
 						
 						} else if o_rogue.equipment_ring_2 == 0 {
-								o_rogue.equipment_ring_2 = 2;
+								o_rogue.equipment_ring_2 = 3;
 								in_equipment = true;
 								//konumlar yüzük takmak için bunlar sağ yüzük için üsttekiler sol
 								if position == 1 {
