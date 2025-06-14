@@ -928,6 +928,10 @@
     {"name":"Sprite352354","order":87,"path":"sprites/Sprite352354/Sprite352354.yy",},
     {"name":"Sprite363","order":93,"path":"sprites/Sprite363/Sprite363.yy",},
     {"name":"Sprite401","order":97,"path":"sprites/Sprite401/Sprite401.yy",},
+<<<<<<< HEAD
+    {"name":"Sprite405","order":28,"path":"sprites/Sprite405/Sprite405.yy",},
+=======
     {"name":"Sprite408","order":102,"path":"sprites/Sprite408/Sprite408.yy",},
+>>>>>>> 64bdb530b4838874bed9279e131e430c208cfe75
   ],
 }

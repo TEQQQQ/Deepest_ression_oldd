@@ -71,7 +71,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"KNIGHT",
   "resources":[
@@ -990,7 +990,11 @@
     {"id":{"name":"Sprite352354","path":"sprites/Sprite352354/Sprite352354.yy",},},
     {"id":{"name":"Sprite363","path":"sprites/Sprite363/Sprite363.yy",},},
     {"id":{"name":"Sprite401","path":"sprites/Sprite401/Sprite401.yy",},},
+<<<<<<< HEAD
+    {"id":{"name":"Sprite405","path":"sprites/Sprite405/Sprite405.yy",},},
+=======
     {"id":{"name":"Sprite408","path":"sprites/Sprite408/Sprite408.yy",},},
+>>>>>>> 64bdb530b4838874bed9279e131e430c208cfe75
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
